@@ -1,0 +1,10 @@
+{% extends 'game/base.html' %}
+
+{% block title %}
+Страница
+{% endblock %}
+
+{% block one %}
+<h1>ГлавнаЯ</h1>
+  <button onclick="if(!this.counter){this.counter = 0}; this.innerHTML = ++this.counter;">Click</button>
+{% endblock %}
